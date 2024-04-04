@@ -1,0 +1,28 @@
+[0.082s] Invoking command in '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher -- -j3 -l3
+[0.240s] [35m[1mConsolidate compiler generated dependencies of target setpoints_publisher[0m
+[0.667s] [ 50%] [32mBuilding CXX object CMakeFiles/setpoints_publisher.dir/src/setpoints_publisher.cpp.o[0m
+[45.684s] [100%] [32m[1mLinking CXX executable setpoints_publisher[0m
+[48.335s] [100%] Built target setpoints_publisher
+[48.371s] Invoked command in '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher -- -j3 -l3
+[48.484s] Invoking command in '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher
+[48.515s] -- Install configuration: ""
+[48.517s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher//launch
+[48.518s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher//launch/start_all_nodes.launch.py
+[48.520s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/lib/setpoints_publisher/setpoints_publisher
+[48.736s] -- Set runtime path of "/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/lib/setpoints_publisher/setpoints_publisher" to ""
+[48.739s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/ament_index/resource_index/package_run_dependencies/setpoints_publisher
+[48.740s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/ament_index/resource_index/parent_prefix_path/setpoints_publisher
+[48.742s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/ament_prefix_path.sh
+[48.743s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/ament_prefix_path.dsv
+[48.744s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/path.sh
+[48.745s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/path.dsv
+[48.751s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.bash
+[48.753s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.sh
+[48.756s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.zsh
+[48.758s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.dsv
+[48.767s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/package.dsv
+[48.774s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/ament_index/resource_index/packages/setpoints_publisher
+[48.775s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/cmake/setpoints_publisherConfig.cmake
+[48.776s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/cmake/setpoints_publisherConfig-version.cmake
+[48.779s] -- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/package.xml
+[48.781s] Invoked command in '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher

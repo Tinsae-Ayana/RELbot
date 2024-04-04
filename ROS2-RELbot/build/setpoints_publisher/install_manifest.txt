@@ -1,0 +1,17 @@
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher//launch/start_all_nodes.launch.py
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/lib/setpoints_publisher/setpoints_publisher
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/ament_index/resource_index/package_run_dependencies/setpoints_publisher
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/ament_index/resource_index/parent_prefix_path/setpoints_publisher
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/ament_prefix_path.sh
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/ament_prefix_path.dsv
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/path.sh
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/path.dsv
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.bash
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.sh
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.zsh
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.dsv
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/package.dsv
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/ament_index/resource_index/packages/setpoints_publisher
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/cmake/setpoints_publisherConfig.cmake
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/cmake/setpoints_publisherConfig-version.cmake
+/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/package.xml

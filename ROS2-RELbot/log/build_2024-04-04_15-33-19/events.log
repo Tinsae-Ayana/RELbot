@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000620] (-) JobUnselected: {'identifier': 'cam_imag_pro'}
+[0.001554] (setpoints_publisher) JobQueued: {'identifier': 'setpoints_publisher', 'dependencies': OrderedDict()}
+[0.002219] (setpoints_publisher) JobStarted: {'identifier': 'setpoints_publisher'}
+[0.037743] (setpoints_publisher) JobProgress: {'identifier': 'setpoints_publisher', 'progress': 'cmake'}
+[0.041304] (setpoints_publisher) JobProgress: {'identifier': 'setpoints_publisher', 'progress': 'build'}
+[0.051921] (setpoints_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher', '--', '-j3', '-l3'], 'cwd': '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'asdfr_cbl_08'), ('SSH_CLIENT', '10.0.100.196 52528 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asdfr_cbl_08/xenomia4-framework/install/custom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/asdfr_cbl_08'), ('OLDPWD', '/home/asdfr_cbl_08'), ('SSH_TTY', '/dev/pts/8'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1033/bus'), ('COLCON_PREFIX_PATH', '/home/asdfr_cbl_08/xenomia4-framework/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asdfr_cbl_08'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '19'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/evl/bin:/opt/relbot-software/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1033'), ('DISPLAY', 'localhost:14.0'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/asdfr_cbl_08/xenomia4-framework/install/custom_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('PWD', '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.100.196 52528 10.0.28.211 22'), ('PYTHONPATH', '/home/asdfr_cbl_08/xenomia4-framework/install/custom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/asdfr_cbl_08/xenomia4-framework/install/custom_msgs')]), 'shell': False}
+[0.098776] (-) TimerEvent: {}
+[0.134047] (setpoints_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198941] (-) TimerEvent: {}
+[0.299930] (-) TimerEvent: {}
+[0.400978] (-) TimerEvent: {}
+[0.502862] (-) TimerEvent: {}
+[0.603985] (-) TimerEvent: {}
+[0.705746] (-) TimerEvent: {}
+[0.783308] (setpoints_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.805907] (-) TimerEvent: {}
+[0.904355] (setpoints_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.906123] (-) TimerEvent: {}
+[0.914132] (setpoints_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.944779] (setpoints_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.997086] (setpoints_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.006376] (-) TimerEvent: {}
+[1.067587] (setpoints_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.106562] (-) TimerEvent: {}
+[1.207467] (-) TimerEvent: {}
+[1.308324] (-) TimerEvent: {}
+[1.348163] (setpoints_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.354106] (setpoints_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.408784] (-) TimerEvent: {}
+[1.509735] (-) TimerEvent: {}
+[1.610700] (-) TimerEvent: {}
+[1.711709] (-) TimerEvent: {}
+[1.816493] (-) TimerEvent: {}
+[1.918083] (-) TimerEvent: {}
+[1.922415] (setpoints_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.018379] (-) TimerEvent: {}
+[2.120991] (-) TimerEvent: {}
+[2.223526] (-) TimerEvent: {}
+[2.324520] (-) TimerEvent: {}
+[2.425819] (-) TimerEvent: {}
+[2.526923] (-) TimerEvent: {}
+[2.628260] (-) TimerEvent: {}
+[2.639105] (setpoints_publisher) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.728493] (-) TimerEvent: {}
+[2.804272] (setpoints_publisher) StdoutLine: {'line': b'-- Found custom_msgs: 0.0.0 (/home/asdfr_cbl_08/xenomia4-framework/install/custom_msgs/share/custom_msgs/cmake)\n'}
+[2.828929] (-) TimerEvent: {}
+[2.871266] (setpoints_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.929160] (-) TimerEvent: {}
+[3.030730] (-) TimerEvent: {}
+[3.132114] (-) TimerEvent: {}
+[3.135599] (setpoints_publisher) StderrLine: {'line': b"Error parsing '/home/asdfr_cbl_08/ROS2-RELbot/src/setpoints_publisher/package.xml':\n"}
+[3.232406] (-) TimerEvent: {}
+[3.333427] (-) TimerEvent: {}
+[3.344074] (setpoints_publisher) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.345733] (setpoints_publisher) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[3.348510] (setpoints_publisher) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[3.354395] (setpoints_publisher) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString\n'}
+[3.377147] (setpoints_publisher) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[3.389256] (setpoints_publisher) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[3.397363] (setpoints_publisher) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[3.405679] (setpoints_publisher) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[3.418940] (setpoints_publisher) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[3.429999] (setpoints_publisher) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 15, column 23\n'}
+[3.443327] (-) TimerEvent: {}
+[3.450305] (setpoints_publisher) StderrLine: {'line': b'\n'}
+[3.469422] (setpoints_publisher) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[3.470973] (setpoints_publisher) StderrLine: {'line': b'\n'}
+[3.472409] (setpoints_publisher) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.473950] (setpoints_publisher) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[3.485740] (setpoints_publisher) StderrLine: {'line': b'    main()\n'}
+[3.489136] (setpoints_publisher) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[3.491389] (setpoints_publisher) StderrLine: {'line': b'    raise e\n'}
+[3.494849] (setpoints_publisher) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[3.496848] (setpoints_publisher) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[3.498078] (setpoints_publisher) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[3.499408] (setpoints_publisher) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[3.501108] (setpoints_publisher) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/asdfr_cbl_08/ROS2-RELbot/src/setpoints_publisher/package.xml':\n"}
+[3.504521] (setpoints_publisher) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[3.506197] (setpoints_publisher) StderrLine: {'line': b'mismatched tag: line 15, column 23\n'}
+[3.516792] (setpoints_publisher) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[3.523771] (setpoints_publisher) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[3.531644] (setpoints_publisher) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.549453] (-) TimerEvent: {}
+[3.556161] (setpoints_publisher) StderrLine: {'line': b'  /home/asdfr_cbl_08/ROS2-RELbot/src/setpoints_publisher/package.xml\n'}
+[3.566312] (setpoints_publisher) StderrLine: {'line': b'  /home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher/ament_cmake_core/package.cmake)\n'}
+[3.574508] (setpoints_publisher) StderrLine: {'line': b'  returned error code 1\n'}
+[3.576988] (setpoints_publisher) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.581299] (setpoints_publisher) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.583503] (setpoints_publisher) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[3.585233] (setpoints_publisher) StderrLine: {'line': b'  CMakeLists.txt:43 (ament_lint_auto_find_test_dependencies)\n'}
+[3.586609] (setpoints_publisher) StderrLine: {'line': b'\n'}
+[3.588499] (setpoints_publisher) StderrLine: {'line': b'\x1b[0m\n'}
+[3.590187] (setpoints_publisher) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.600495] (setpoints_publisher) StdoutLine: {'line': b'See also "/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher/CMakeFiles/CMakeOutput.log".\n'}
+[3.605282] (setpoints_publisher) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[3.607707] (setpoints_publisher) CommandEnded: {'returncode': 2}
+[3.610236] (setpoints_publisher) JobEnded: {'identifier': 'setpoints_publisher', 'rc': 2}
+[3.633478] (-) EventReactorShutdown: {}

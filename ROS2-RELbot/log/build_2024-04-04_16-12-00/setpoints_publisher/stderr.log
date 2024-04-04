@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:25 (add_dependencies):
+  The dependency target "custom_msgs" of target "setpoints_publisher" does
+  not exist.
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

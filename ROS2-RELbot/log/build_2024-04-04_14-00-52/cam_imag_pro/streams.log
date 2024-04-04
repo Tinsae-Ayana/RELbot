@@ -1,0 +1,75 @@
+[0.050s] Invoking command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asdfr_cbl_08/ROS2-RELbot/src/cam_imag_pro -DCMAKE_INSTALL_PREFIX=/home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro
+[1.012s] -- The C compiler identification is GNU 11.4.0
+[1.713s] -- The CXX compiler identification is GNU 11.4.0
+[1.827s] -- Detecting C compiler ABI info
+[2.153s] -- Detecting C compiler ABI info - done
+[2.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.204s] -- Detecting C compile features
+[2.207s] -- Detecting C compile features - done
+[2.228s] -- Detecting CXX compiler ABI info
+[2.539s] -- Detecting CXX compiler ABI info - done
+[2.590s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.592s] -- Detecting CXX compile features
+[2.598s] -- Detecting CXX compile features - done
+[2.610s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.315s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.776s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[3.961s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.980s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.013s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.397s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.408s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.757s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.838s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.956s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.995s] -- Looking for pthread.h
+[5.290s] -- Looking for pthread.h - found
+[5.292s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.599s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.603s] -- Found Threads: TRUE  
+[6.241s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.763s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[6.857s] -- Found OpenCV: /usr (found version "4.5.4") 
+[6.873s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.208s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.210s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/asdfr_cbl_08/ROS2-RELbot/src/cam_imag_pro/include/cam_imag_pro>
+[7.211s] -- Configured cppcheck exclude dirs and/or files: 
+[7.213s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.215s] -- Added test 'lint_cmake' to check CMake code style
+[7.217s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.221s] -- Added test 'uncrustify' to check C / C++ code style
+[7.223s] -- Configured uncrustify additional arguments: 
+[7.224s] -- Added test 'xmllint' to check XML markup files
+[7.232s] -- Configuring done
+[7.297s] -- Generating done
+[7.314s] -- Build files have been written to: /home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro
+[7.358s] Invoked command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asdfr_cbl_08/ROS2-RELbot/src/cam_imag_pro -DCMAKE_INSTALL_PREFIX=/home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro
+[7.364s] Invoking command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro -- -j3 -l3
+[7.504s] [ 50%] [32mBuilding CXX object CMakeFiles/light_pos_indicator_node.dir/src/light_pos_indicator_node.cpp.o[0m
+[52.211s] [100%] [32m[1mLinking CXX executable light_pos_indicator_node[0m
+[56.168s] [100%] Built target light_pos_indicator_node
+[56.204s] Invoked command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro -- -j3 -l3
+[56.272s] Invoking command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro
+[56.298s] -- Install configuration: ""
+[56.299s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro//launch
+[56.300s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro//launch/light_pose.launch.py
+[56.301s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/lib/cam_imag_pro/light_pos_indicator_node
+[56.449s] -- Set runtime path of "/home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/lib/cam_imag_pro/light_pos_indicator_node" to ""
+[56.451s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/ament_index/resource_index/package_run_dependencies/cam_imag_pro
+[56.452s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/ament_index/resource_index/parent_prefix_path/cam_imag_pro
+[56.453s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/environment/ament_prefix_path.sh
+[56.454s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/environment/ament_prefix_path.dsv
+[56.455s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/environment/path.sh
+[56.457s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/environment/path.dsv
+[56.458s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/local_setup.bash
+[56.459s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/local_setup.sh
+[56.460s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/local_setup.zsh
+[56.461s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/local_setup.dsv
+[56.462s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/package.dsv
+[56.463s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/ament_index/resource_index/packages/cam_imag_pro
+[56.465s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/cmake/cam_imag_proConfig.cmake
+[56.466s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/cmake/cam_imag_proConfig-version.cmake
+[56.468s] -- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro/share/cam_imag_pro/package.xml
+[56.473s] Invoked command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro

@@ -1,0 +1,33 @@
+[0.046s] Invoking command in '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher': /usr/bin/cmake --build /home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher -- -j3 -l3
+[0.148s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.798s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.901s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.910s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.935s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.265s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.270s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.648s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.560s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.792s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[2.793s]   By not providing "Findcustom_msgs.cmake" in CMAKE_MODULE_PATH this project
+[2.794s]   has asked CMake to find a package configuration file provided by
+[2.804s]   "custom_msgs", but CMake did not find one.
+[2.812s] 
+[2.849s]   Could not find a package configuration file provided by "custom_msgs" with
+[2.850s]   any of the following names:
+[2.852s] 
+[2.853s]     custom_msgsConfig.cmake
+[2.855s]     custom_msgs-config.cmake
+[2.869s] 
+[2.870s]   Add the installation prefix of "custom_msgs" to CMAKE_PREFIX_PATH or set
+[2.872s]   "custom_msgs_DIR" to a directory containing one of the above files.  If
+[2.879s]   "custom_msgs" provides a separate development package or SDK, be sure it
+[2.888s]   has been installed.
+[2.890s] 
+[2.896s] [0m
+[2.898s] -- Configuring incomplete, errors occurred!
+[2.899s] See also "/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher/CMakeFiles/CMakeOutput.log".
+[2.900s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[2.902s] Invoked command in '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher' returned '2': /usr/bin/cmake --build /home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher -- -j3 -l3

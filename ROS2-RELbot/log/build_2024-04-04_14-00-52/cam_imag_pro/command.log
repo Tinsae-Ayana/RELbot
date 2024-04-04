@@ -1,0 +1,6 @@
+Invoking command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asdfr_cbl_08/ROS2-RELbot/src/cam_imag_pro -DCMAKE_INSTALL_PREFIX=/home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro
+Invoked command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/asdfr_cbl_08/ROS2-RELbot/src/cam_imag_pro -DCMAKE_INSTALL_PREFIX=/home/asdfr_cbl_08/ROS2-RELbot/install/cam_imag_pro
+Invoking command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro -- -j3 -l3
+Invoked command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro -- -j3 -l3
+Invoking command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro
+Invoked command in '/home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/asdfr_cbl_08/ROS2-RELbot/build/cam_imag_pro

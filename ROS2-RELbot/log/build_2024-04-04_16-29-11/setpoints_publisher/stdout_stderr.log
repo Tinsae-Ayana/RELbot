@@ -1,0 +1,15 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/setpoints_publisher.dir/src/setpoints_publisher.cpp.o[0m
+[01m[K/home/asdfr_cbl_08/ROS2-RELbot/src/setpoints_publisher/src/setpoints_publisher.cpp:[m[K In member function ‘[01m[Kvoid SetpointsPublisher::light_pose_callback(const PointStamped&)[m[K’:
+[01m[K/home/asdfr_cbl_08/ROS2-RELbot/src/setpoints_publisher/src/setpoints_publisher.cpp:18:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SetpointsPublisher[m[K’ has no member named ‘[01m[Klight_pose[m[K’; did you mean ‘[01m[Klight_pose_topic[m[K’?
+   18 |   double x_difference = (double)(500 - this->[01;31m[Klight_pose[m[K.point.x); // TODO: to be changed
+      |                                              [01;31m[K^~~~~~~~~~[m[K
+      |                                              [32m[Klight_pose_topic[m[K
+[01m[K/home/asdfr_cbl_08/ROS2-RELbot/src/setpoints_publisher/src/setpoints_publisher.cpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_setpoints[m[K’ was not declared in this scope
+   23 |   [01;31m[Kvel_setpoints[m[K.x = right_motor_vel;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/asdfr_cbl_08/ROS2-RELbot/src/setpoints_publisher/src/setpoints_publisher.cpp:16:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klight_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |     [01;35m[Kconst geometry_msgs::msg::PointStamped &light_pose[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/setpoints_publisher.dir/build.make:76: CMakeFiles/setpoints_publisher.dir/src/setpoints_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/setpoints_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

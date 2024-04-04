@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target setpoints_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/setpoints_publisher.dir/src/setpoints_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable setpoints_publisher[0m
+[100%] Built target setpoints_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher//launch
+-- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher//launch/start_all_nodes.launch.py
+-- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/lib/setpoints_publisher/setpoints_publisher
+-- Set runtime path of "/home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/lib/setpoints_publisher/setpoints_publisher" to ""
+-- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/ament_index/resource_index/package_run_dependencies/setpoints_publisher
+-- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/ament_index/resource_index/parent_prefix_path/setpoints_publisher
+-- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/ament_prefix_path.sh
+-- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/path.sh
+-- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/environment/path.dsv
+-- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.bash
+-- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.sh
+-- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.zsh
+-- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/local_setup.dsv
+-- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/package.dsv
+-- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/ament_index/resource_index/packages/setpoints_publisher
+-- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/cmake/setpoints_publisherConfig.cmake
+-- Up-to-date: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/cmake/setpoints_publisherConfig-version.cmake
+-- Installing: /home/asdfr_cbl_08/ROS2-RELbot/install/setpoints_publisher/share/setpoints_publisher/package.xml
