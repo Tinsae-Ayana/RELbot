@@ -1,0 +1,8 @@
+## Instruction to Run the non-realtime part, make sure you run the xenomia part first
+
+1. go to xenomia4-framework folder in the terminal and run "colcon build --packages-select custom_msgs ros_xeno_bridge"
+2. run "source install/setup.bash" before leaving the directory
+3. on the same terminal go to ROS2-RELbot directory
+4. run "colcon build"
+5. run "source install/setup.bash"
+6. run "ros2 launch setpoints_publisher start_all_nodes.launch.py"

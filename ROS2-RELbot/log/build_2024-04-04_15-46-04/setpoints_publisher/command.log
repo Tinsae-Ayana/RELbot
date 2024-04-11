@@ -1,2 +1,0 @@
-Invoking command in '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher': /usr/bin/cmake --build /home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher -- -j3 -l3
-Invoked command in '/home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher' returned '2': /usr/bin/cmake --build /home/asdfr_cbl_08/ROS2-RELbot/build/setpoints_publisher -- -j3 -l3
